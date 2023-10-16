@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 from git import getData
 
 class TestGit(unittest.TestCase):
